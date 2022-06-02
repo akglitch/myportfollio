@@ -2,7 +2,7 @@ export const projects = [
   {
     'id': 1,
     'name': "Contact Manager",
-    "desc": ' A web that enables users to easily store and find contact information, such as names and addresses.',
+    "desc": ' A web app that enables users to easily store and find contact information, such as names and addresses.',
     'site': 'http://shelfmade.netlify.app',
     'img': require('../utils/imgs/cmanager.png'),
     'github': "https://github.com/akglitch/Contact-Manager",
