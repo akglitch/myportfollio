@@ -18,6 +18,10 @@ body {
 
 }
 
+.btn-primary:hover{
+  background-color: #f50000;
+}
+
 .stack{
     color: black;
 }
