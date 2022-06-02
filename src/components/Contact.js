@@ -25,7 +25,7 @@ const Contact = () =>  {
       ></a>
 
     
-      <a class="btn btn-outline-dark btn-floating m-1" href="#none" role="button"
+      <a class="btn btn-outline-dark btn-floating m-1" href="#http://kaytee.com" role="button"
         ><i class="fab fa-twitter"></i
       ></a>
 
