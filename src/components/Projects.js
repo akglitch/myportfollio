@@ -20,9 +20,7 @@ return(<Col xs={{span:24}} sm={{span:24}} md={{span:12}} lg={{span:8}}>
           <div className="card-body px-4 py-5 p-md-8">
             <div className="border-bottom pb-3 mb-5">
               <h3 className="mb-2 fw-bold display-5"> <a href="#slime" className="text-inherit" class="stack">{project.name}</a></h3>
-              <p className="lead">When setting up a site or app for your university
-                or school, Geeks courses and education
-                template is an ideal tool to start.</p>
+              <p className="lead">{project.desc}</p>
             </div>
             <div className="d-flex flex-row justify-content-center">
               <a href={project.site} target="_blank" rel="noreferrer" className="btn btn-outline-primary mx-2">
