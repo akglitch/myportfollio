@@ -51,7 +51,7 @@ const Navbar = () => {
       <div className="drawer-items">
         <div className='mt-1'>
         <div className="menu-items">
-            <Link className="text-3xl" onClick={onClose} to={'/'} >Home</Link>
+            <Link className="text-3xl" onClick={onClose} to={'/home'} >Home</Link>
             <Link className="text-3xl p-3" onClick={onClose} to={'/about'} >About</Link>
             <Link className="text-3xl p-3" onClick={onClose} to={'/skills'} >Skills</Link>
               <Link className="text-3xl p-3" onClick={onClose} to={'/projects'} >Projects</Link>
