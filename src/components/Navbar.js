@@ -30,7 +30,7 @@ const Navbar = () => {
                           </div>
                         <div className="navbar-collapse collapse">
                           <ul className="navbar-nav ms-auto mb-1 mb-lg-0 navbar-nav">
-                            <li className="nav-item"><a href={'#jn'} className="nav-link">Home</a></li>
+                            <li className="nav-item"><a href={'#Hero'} className="nav-link">Home</a></li>
                             <li className="nav-item"><a href={'#about'} className="nav-link">About</a></li>
                             <li className="nav-item"><a href={'#skills'} className="nav-link">Skills</a></li>
                             <li className="nav-item"><a href={'#projects'} className="nav-link">Projects</a></li>
@@ -51,7 +51,7 @@ const Navbar = () => {
       <div className="drawer-items">
         <div className='mt-1'>
         <div className="menu-items">
-            <Link className="text-3xl" onClick={onClose} to={'/Hero'} >Home</Link>
+            <Link className="text-3xl" onClick={onClose} to={'/'} >Home</Link>
             <Link className="text-3xl p-3" onClick={onClose} to={'/about'} >About</Link>
             <Link className="text-3xl p-3" onClick={onClose} to={'/skills'} >Skills</Link>
               <Link className="text-3xl p-3" onClick={onClose} to={'/projects'} >Projects</Link>
